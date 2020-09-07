@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "ext-fileinfo": "*",
+        "ext-imagick": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
